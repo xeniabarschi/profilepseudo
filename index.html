@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <title>Profile Image Effects</title>
+     <style>
+         body{
+             background-color: #555;
+             margin: 0;
+         }
+        .profile{
+            background-color: peru;
+            margin: 100px;
+            width: 400px;
+            height: 400px;
+           overflow: hidden;
+           border-radius: 100%;
+           border: 2 solid peru;
+
+        }
+        .profile img{
+            opacity: 0.5;
+            transition: 0.6s;
+        }
+        .profile:hover img{
+            margin-top: -500px;
+            opacity: 0.5;
+        }
+        .profile figcaption{
+            background-color: peru;
+            width: inherit;
+            height: 300px;
+            text-align: center;
+            padding-top: 100px;
+            color: ivory;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .profile h2{
+            margin: 0;
+        }
+        .profile p{
+            color: khaki;}
+
+            
+            .list{
+                color: lawngreen;
+                font-size: 20px;
+                margin: 0;
+               /* margin-left: -100px;*/
+                text-align: left;
+                width: 250px;
+                }
+        ul{
+            list-style: none;
+        }
+         li{ padding: 10px;
+           border-left: 5px solid #333;
+            }
+.list li:hover{
+    color: green;
+    background-color: black;
+}
+
+}
+
+        .profile h4: hover{
+         .list{
+             opacity: 1;
+         }
+ }
+
+     </style>
+     
+</head>
+<body>
+    <figure class="profile">
+   <img src="images/bill gates.jpg" alt="Bill Gates"> 
+<figcaption>
+   <h2>Bill Gates</h2>
+   <h3>UI Creator</h3>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, aut?</p>
+    
+   <h4> <a href=".list">skills </a></h4>
+  
+  </figcaption>
+</figure>
+<nav class="list">
+    
+     <ul>
+    <li>Lorem ipsum dolor sit.</li>
+    <li>A rerum nobis aliquam?</li>
+    <li>Molestiae, eum. Labore, maiores.</li>
+    <li>Quos explicabo cumque nihil.</li>
+    <li>Commodi cupiditate natus eos!</li>
+</ul> </nav>
+</body>
+
+</html>
